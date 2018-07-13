@@ -13,6 +13,8 @@
 		FB60D66B20F856EF00F3809C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB60D66A20F856EF00F3809C /* Assets.xcassets */; };
 		FB60D66E20F856EF00F3809C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB60D66C20F856EF00F3809C /* LaunchScreen.storyboard */; };
 		FB60D67120F856EF00F3809C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB60D67020F856EF00F3809C /* main.m */; };
+		FB93209F20F8E610006E9A72 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = FB93209D20F8E610006E9A72 /* main.jsbundle */; };
+		FB9320A020F8E610006E9A72 /* libBSWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB93209E20F8E610006E9A72 /* libBSWebImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		FB60D66D20F856EF00F3809C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB60D66F20F856EF00F3809C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB60D67020F856EF00F3809C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB93209C20F8E610006E9A72 /* CentralControlUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralControlUnit.h; sourceTree = "<group>"; };
+		FB93209D20F8E610006E9A72 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		FB93209E20F8E610006E9A72 /* libBSWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBSWebImage.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9320A020F8E610006E9A72 /* libBSWebImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,7 @@
 		FB60D65520F856ED00F3809C = {
 			isa = PBXGroup;
 			children = (
+				FB93209B20F8E610006E9A72 /* SLib */,
 				FB60D66020F856ED00F3809C /* SLibBSWebImage */,
 				FB60D65F20F856ED00F3809C /* Products */,
 			);
@@ -69,6 +76,16 @@
 				FB60D67020F856EF00F3809C /* main.m */,
 			);
 			path = SLibBSWebImage;
+			sourceTree = "<group>";
+		};
+		FB93209B20F8E610006E9A72 /* SLib */ = {
+			isa = PBXGroup;
+			children = (
+				FB93209C20F8E610006E9A72 /* CentralControlUnit.h */,
+				FB93209D20F8E610006E9A72 /* main.jsbundle */,
+				FB93209E20F8E610006E9A72 /* libBSWebImage.a */,
+			);
+			path = SLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +148,7 @@
 				FB60D66E20F856EF00F3809C /* LaunchScreen.storyboard in Resources */,
 				FB60D66B20F856EF00F3809C /* Assets.xcassets in Resources */,
 				FB60D66920F856ED00F3809C /* Main.storyboard in Resources */,
+				FB93209F20F8E610006E9A72 /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +308,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SLib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xm.SLibBSWebImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,6 +328,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SLib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xm.SLibBSWebImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
