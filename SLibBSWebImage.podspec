@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SLibBSWebImage"
-  s.version      = "0.1.0"
+  s.version      = "0.1.2"
   s.summary      = "test 1 SLibBSWebImage."
 
   # This description is used to generate tags and improve search results.
