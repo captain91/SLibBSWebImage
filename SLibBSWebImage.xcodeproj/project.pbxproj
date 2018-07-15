@@ -7,48 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB30ACB120FAEAE000579676 /* UMCommonLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB30ACA420FAEAE000579676 /* UMCommonLog.framework */; };
+		FB30ACB220FAEAE000579676 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB30ACA520FAEAE000579676 /* WebP.framework */; };
+		FB30ACB320FAEAE000579676 /* UMPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB30ACA620FAEAE000579676 /* UMPush.framework */; };
+		FB30ACB420FAEAE000579676 /* UMShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB30ACA720FAEAE000579676 /* UMShare.framework */; };
+		FB30ACB520FAEAE000579676 /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB30ACA820FAEAE000579676 /* UMCommon.framework */; };
+		FB30ACB620FAEAE000579676 /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB30ACA920FAEAE000579676 /* UShareUI.framework */; };
+		FB30ACB720FAEAE000579676 /* UMErrorCatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB30ACAA20FAEAE000579676 /* UMErrorCatch.framework */; };
+		FB30ACB820FAEAE000579676 /* UMAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB30ACAB20FAEAE000579676 /* UMAnalytics.framework */; };
+		FB30ACB920FAEAE000579676 /* WebPDemux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB30ACAC20FAEAE000579676 /* WebPDemux.framework */; };
+		FB30ACBA20FAEAE000579676 /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB30ACAE20FAEAE000579676 /* UMSocialSDKResources.bundle */; };
+		FB30ACBB20FAEAE000579676 /* UMSocialSDKPromptResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB30ACAF20FAEAE000579676 /* UMSocialSDKPromptResources.bundle */; };
+		FB30ACBC20FAEAE000579676 /* UMCommonLog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB30ACB020FAEAE000579676 /* UMCommonLog.bundle */; };
 		FB60D66320F856ED00F3809C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB60D66220F856ED00F3809C /* AppDelegate.m */; };
 		FB60D66620F856ED00F3809C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB60D66520F856ED00F3809C /* ViewController.m */; };
 		FB60D66920F856ED00F3809C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB60D66720F856ED00F3809C /* Main.storyboard */; };
 		FB60D66B20F856EF00F3809C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB60D66A20F856EF00F3809C /* Assets.xcassets */; };
 		FB60D66E20F856EF00F3809C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB60D66C20F856EF00F3809C /* LaunchScreen.storyboard */; };
 		FB60D67120F856EF00F3809C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB60D67020F856EF00F3809C /* main.m */; };
-		FB92C5BD20F98B9F000040CD /* UMShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92C5A420F98B9C000040CD /* UMShare.framework */; };
-		FB92C5BE20F98B9F000040CD /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5A520F98B9C000040CD /* back@2x.png */; };
-		FB92C5BF20F98B9F000040CD /* UMCommonLog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5A620F98B9D000040CD /* UMCommonLog.bundle */; };
-		FB92C5C020F98B9F000040CD /* UMAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92C5A720F98B9D000040CD /* UMAnalytics.framework */; };
-		FB92C5C120F98B9F000040CD /* UMErrorCatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92C5A820F98B9D000040CD /* UMErrorCatch.framework */; };
-		FB92C5C220F98B9F000040CD /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92C5A920F98B9D000040CD /* UShareUI.framework */; };
-		FB92C5C320F98B9F000040CD /* DS-Icon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5AA20F98B9D000040CD /* DS-Icon.ttf */; };
-		FB92C5C420F98B9F000040CD /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5AB20F98B9D000040CD /* Zocial.ttf */; };
-		FB92C5C520F98B9F000040CD /* DS-Collection.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5AC20F98B9D000040CD /* DS-Collection.ttf */; };
-		FB92C5C620F98B9F000040CD /* UMSocialSDKPromptResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5AD20F98B9D000040CD /* UMSocialSDKPromptResources.bundle */; };
-		FB92C5C720F98B9F000040CD /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5AE20F98B9D000040CD /* EvilIcons.ttf */; };
-		FB92C5C820F98B9F000040CD /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92C5AF20F98B9D000040CD /* WebP.framework */; };
-		FB92C5C920F98B9F000040CD /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5B020F98B9E000040CD /* UMSocialSDKResources.bundle */; };
-		FB92C5CA20F98B9F000040CD /* WebPDemux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92C5B120F98B9E000040CD /* WebPDemux.framework */; };
-		FB92C5CB20F98B9F000040CD /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5B220F98B9E000040CD /* Feather.ttf */; };
-		FB92C5CC20F98B9F000040CD /* complate.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5B320F98B9E000040CD /* complate.wav */; };
-		FB92C5CD20F98B9F000040CD /* dang.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5B420F98B9E000040CD /* dang.wav */; };
-		FB92C5CE20F98B9F000040CD /* DS-Digital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5B520F98B9E000040CD /* DS-Digital.ttf */; };
-		FB92C5CF20F98B9F000040CD /* warn.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5B620F98B9E000040CD /* warn.wav */; };
-		FB92C5D020F98B9F000040CD /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92C5B720F98B9F000040CD /* UMCommon.framework */; };
-		FB92C5D120F98B9F000040CD /* bell.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5B820F98B9F000040CD /* bell.wav */; };
-		FB92C5D220F98B9F000040CD /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5B920F98B9F000040CD /* Entypo.ttf */; };
-		FB92C5D320F98B9F000040CD /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5BA20F98B9F000040CD /* FontAwesome.ttf */; };
-		FB92C5D420F98B9F000040CD /* UMCommonLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92C5BB20F98B9F000040CD /* UMCommonLog.framework */; };
-		FB92C5D520F98BA0000040CD /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB92C5BC20F98B9F000040CD /* click.wav */; };
 		FB92C5D920F98BE5000040CD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92C5D720F98BE5000040CD /* libsqlite3.tbd */; };
 		FB92C5DA20F98BE5000040CD /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92C5D820F98BE5000040CD /* libsqlite3.0.tbd */; };
 		FB92C5DC20F98BF7000040CD /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92C5DB20F98BF7000040CD /* libresolv.tbd */; };
 		FB92C5DE20F98C05000040CD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92C5DD20F98C05000040CD /* libz.tbd */; };
 		FB92C5E020F98C0D000040CD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92C5DF20F98C0D000040CD /* libc++.tbd */; };
-		FB92C5E220F98D85000040CD /* UMPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92C5E120F98D85000040CD /* UMPush.framework */; };
 		FB93209F20F8E610006E9A72 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = FB93209D20F8E610006E9A72 /* main.jsbundle */; };
 		FB9320A020F8E610006E9A72 /* libBSWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB93209E20F8E610006E9A72 /* libBSWebImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB30ACA420FAEAE000579676 /* UMCommonLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommonLog.framework; sourceTree = "<group>"; };
+		FB30ACA520FAEAE000579676 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		FB30ACA620FAEAE000579676 /* UMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMPush.framework; sourceTree = "<group>"; };
+		FB30ACA720FAEAE000579676 /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMShare.framework; sourceTree = "<group>"; };
+		FB30ACA820FAEAE000579676 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		FB30ACA920FAEAE000579676 /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+		FB30ACAA20FAEAE000579676 /* UMErrorCatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMErrorCatch.framework; sourceTree = "<group>"; };
+		FB30ACAB20FAEAE000579676 /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		FB30ACAC20FAEAE000579676 /* WebPDemux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPDemux.framework; sourceTree = "<group>"; };
+		FB30ACAE20FAEAE000579676 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		FB30ACAF20FAEAE000579676 /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		FB30ACB020FAEAE000579676 /* UMCommonLog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMCommonLog.bundle; sourceTree = "<group>"; };
 		FB60D65E20F856ED00F3809C /* SLibBSWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLibBSWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB60D66120F856ED00F3809C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB60D66220F856ED00F3809C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,37 +57,11 @@
 		FB60D66D20F856EF00F3809C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB60D66F20F856EF00F3809C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB60D67020F856EF00F3809C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FB92C5A420F98B9C000040CD /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMShare.framework; sourceTree = "<group>"; };
-		FB92C5A520F98B9C000040CD /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
-		FB92C5A620F98B9D000040CD /* UMCommonLog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMCommonLog.bundle; sourceTree = "<group>"; };
-		FB92C5A720F98B9D000040CD /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
-		FB92C5A820F98B9D000040CD /* UMErrorCatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMErrorCatch.framework; sourceTree = "<group>"; };
-		FB92C5A920F98B9D000040CD /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
-		FB92C5AA20F98B9D000040CD /* DS-Icon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-Icon.ttf"; sourceTree = "<group>"; };
-		FB92C5AB20F98B9D000040CD /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
-		FB92C5AC20F98B9D000040CD /* DS-Collection.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-Collection.ttf"; sourceTree = "<group>"; };
-		FB92C5AD20F98B9D000040CD /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
-		FB92C5AE20F98B9D000040CD /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
-		FB92C5AF20F98B9D000040CD /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
-		FB92C5B020F98B9E000040CD /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
-		FB92C5B120F98B9E000040CD /* WebPDemux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPDemux.framework; sourceTree = "<group>"; };
-		FB92C5B220F98B9E000040CD /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
-		FB92C5B320F98B9E000040CD /* complate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = complate.wav; sourceTree = "<group>"; };
-		FB92C5B420F98B9E000040CD /* dang.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dang.wav; sourceTree = "<group>"; };
-		FB92C5B520F98B9E000040CD /* DS-Digital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-Digital.ttf"; sourceTree = "<group>"; };
-		FB92C5B620F98B9E000040CD /* warn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warn.wav; sourceTree = "<group>"; };
-		FB92C5B720F98B9F000040CD /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
-		FB92C5B820F98B9F000040CD /* bell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell.wav; sourceTree = "<group>"; };
-		FB92C5B920F98B9F000040CD /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
-		FB92C5BA20F98B9F000040CD /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
-		FB92C5BB20F98B9F000040CD /* UMCommonLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommonLog.framework; sourceTree = "<group>"; };
-		FB92C5BC20F98B9F000040CD /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
 		FB92C5D720F98BE5000040CD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		FB92C5D820F98BE5000040CD /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		FB92C5DB20F98BF7000040CD /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		FB92C5DD20F98C05000040CD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		FB92C5DF20F98C0D000040CD /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		FB92C5E120F98D85000040CD /* UMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMPush.framework; sourceTree = "<group>"; };
 		FB93209C20F8E610006E9A72 /* CentralControlUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralControlUnit.h; sourceTree = "<group>"; };
 		FB93209D20F8E610006E9A72 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		FB93209E20F8E610006E9A72 /* libBSWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBSWebImage.a; sourceTree = "<group>"; };
@@ -100,27 +72,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB30ACB220FAEAE000579676 /* WebP.framework in Frameworks */,
 				FB92C5E020F98C0D000040CD /* libc++.tbd in Frameworks */,
 				FB92C5DE20F98C05000040CD /* libz.tbd in Frameworks */,
+				FB30ACB820FAEAE000579676 /* UMAnalytics.framework in Frameworks */,
 				FB92C5DC20F98BF7000040CD /* libresolv.tbd in Frameworks */,
+				FB30ACB420FAEAE000579676 /* UMShare.framework in Frameworks */,
+				FB30ACB920FAEAE000579676 /* WebPDemux.framework in Frameworks */,
+				FB30ACB720FAEAE000579676 /* UMErrorCatch.framework in Frameworks */,
 				FB92C5D920F98BE5000040CD /* libsqlite3.tbd in Frameworks */,
 				FB92C5DA20F98BE5000040CD /* libsqlite3.0.tbd in Frameworks */,
-				FB92C5E220F98D85000040CD /* UMPush.framework in Frameworks */,
-				FB92C5C820F98B9F000040CD /* WebP.framework in Frameworks */,
-				FB92C5D020F98B9F000040CD /* UMCommon.framework in Frameworks */,
-				FB92C5BD20F98B9F000040CD /* UMShare.framework in Frameworks */,
-				FB92C5D420F98B9F000040CD /* UMCommonLog.framework in Frameworks */,
-				FB92C5C120F98B9F000040CD /* UMErrorCatch.framework in Frameworks */,
-				FB92C5CA20F98B9F000040CD /* WebPDemux.framework in Frameworks */,
 				FB9320A020F8E610006E9A72 /* libBSWebImage.a in Frameworks */,
-				FB92C5C020F98B9F000040CD /* UMAnalytics.framework in Frameworks */,
-				FB92C5C220F98B9F000040CD /* UShareUI.framework in Frameworks */,
+				FB30ACB620FAEAE000579676 /* UShareUI.framework in Frameworks */,
+				FB30ACB520FAEAE000579676 /* UMCommon.framework in Frameworks */,
+				FB30ACB120FAEAE000579676 /* UMCommonLog.framework in Frameworks */,
+				FB30ACB320FAEAE000579676 /* UMPush.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB30ACA320FAEAE000579676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB30ACA420FAEAE000579676 /* UMCommonLog.framework */,
+				FB30ACA520FAEAE000579676 /* WebP.framework */,
+				FB30ACA620FAEAE000579676 /* UMPush.framework */,
+				FB30ACA720FAEAE000579676 /* UMShare.framework */,
+				FB30ACA820FAEAE000579676 /* UMCommon.framework */,
+				FB30ACA920FAEAE000579676 /* UShareUI.framework */,
+				FB30ACAA20FAEAE000579676 /* UMErrorCatch.framework */,
+				FB30ACAB20FAEAE000579676 /* UMAnalytics.framework */,
+				FB30ACAC20FAEAE000579676 /* WebPDemux.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB30ACAD20FAEAE000579676 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB30ACAE20FAEAE000579676 /* UMSocialSDKResources.bundle */,
+				FB30ACAF20FAEAE000579676 /* UMSocialSDKPromptResources.bundle */,
+				FB30ACB020FAEAE000579676 /* UMCommonLog.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		FB60D65520F856ED00F3809C = {
 			isa = PBXGroup;
 			children = (
@@ -170,32 +168,8 @@
 		FB93209B20F8E610006E9A72 /* SLib */ = {
 			isa = PBXGroup;
 			children = (
-				FB92C5E120F98D85000040CD /* UMPush.framework */,
-				FB92C5A520F98B9C000040CD /* back@2x.png */,
-				FB92C5B820F98B9F000040CD /* bell.wav */,
-				FB92C5BC20F98B9F000040CD /* click.wav */,
-				FB92C5B320F98B9E000040CD /* complate.wav */,
-				FB92C5B420F98B9E000040CD /* dang.wav */,
-				FB92C5AC20F98B9D000040CD /* DS-Collection.ttf */,
-				FB92C5B520F98B9E000040CD /* DS-Digital.ttf */,
-				FB92C5AA20F98B9D000040CD /* DS-Icon.ttf */,
-				FB92C5B920F98B9F000040CD /* Entypo.ttf */,
-				FB92C5AE20F98B9D000040CD /* EvilIcons.ttf */,
-				FB92C5B220F98B9E000040CD /* Feather.ttf */,
-				FB92C5BA20F98B9F000040CD /* FontAwesome.ttf */,
-				FB92C5A720F98B9D000040CD /* UMAnalytics.framework */,
-				FB92C5B720F98B9F000040CD /* UMCommon.framework */,
-				FB92C5A620F98B9D000040CD /* UMCommonLog.bundle */,
-				FB92C5BB20F98B9F000040CD /* UMCommonLog.framework */,
-				FB92C5A820F98B9D000040CD /* UMErrorCatch.framework */,
-				FB92C5A420F98B9C000040CD /* UMShare.framework */,
-				FB92C5AD20F98B9D000040CD /* UMSocialSDKPromptResources.bundle */,
-				FB92C5B020F98B9E000040CD /* UMSocialSDKResources.bundle */,
-				FB92C5A920F98B9D000040CD /* UShareUI.framework */,
-				FB92C5B620F98B9E000040CD /* warn.wav */,
-				FB92C5AF20F98B9D000040CD /* WebP.framework */,
-				FB92C5B120F98B9E000040CD /* WebPDemux.framework */,
-				FB92C5AB20F98B9D000040CD /* Zocial.ttf */,
+				FB30ACA320FAEAE000579676 /* Frameworks */,
+				FB30ACAD20FAEAE000579676 /* Resources */,
 				FB93209C20F8E610006E9A72 /* CentralControlUnit.h */,
 				FB93209D20F8E610006E9A72 /* main.jsbundle */,
 				FB93209E20F8E610006E9A72 /* libBSWebImage.a */,
@@ -260,27 +234,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB92C5CD20F98B9F000040CD /* dang.wav in Resources */,
-				FB92C5C420F98B9F000040CD /* Zocial.ttf in Resources */,
-				FB92C5CC20F98B9F000040CD /* complate.wav in Resources */,
-				FB92C5C720F98B9F000040CD /* EvilIcons.ttf in Resources */,
-				FB92C5C520F98B9F000040CD /* DS-Collection.ttf in Resources */,
+				FB30ACBC20FAEAE000579676 /* UMCommonLog.bundle in Resources */,
 				FB60D66E20F856EF00F3809C /* LaunchScreen.storyboard in Resources */,
-				FB92C5D220F98B9F000040CD /* Entypo.ttf in Resources */,
+				FB30ACBB20FAEAE000579676 /* UMSocialSDKPromptResources.bundle in Resources */,
 				FB60D66B20F856EF00F3809C /* Assets.xcassets in Resources */,
-				FB92C5C920F98B9F000040CD /* UMSocialSDKResources.bundle in Resources */,
-				FB92C5C320F98B9F000040CD /* DS-Icon.ttf in Resources */,
-				FB92C5C620F98B9F000040CD /* UMSocialSDKPromptResources.bundle in Resources */,
-				FB92C5D320F98B9F000040CD /* FontAwesome.ttf in Resources */,
-				FB92C5BE20F98B9F000040CD /* back@2x.png in Resources */,
-				FB92C5CB20F98B9F000040CD /* Feather.ttf in Resources */,
-				FB92C5CE20F98B9F000040CD /* DS-Digital.ttf in Resources */,
-				FB92C5D520F98BA0000040CD /* click.wav in Resources */,
-				FB92C5BF20F98B9F000040CD /* UMCommonLog.bundle in Resources */,
-				FB92C5CF20F98B9F000040CD /* warn.wav in Resources */,
-				FB92C5D120F98B9F000040CD /* bell.wav in Resources */,
 				FB60D66920F856ED00F3809C /* Main.storyboard in Resources */,
 				FB93209F20F8E610006E9A72 /* main.jsbundle in Resources */,
+				FB30ACBA20FAEAE000579676 /* UMSocialSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +398,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SLib",
+					"$(PROJECT_DIR)/SLib/Frameworks",
 				);
 				INFOPLIST_FILE = SLibBSWebImage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -465,6 +426,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SLib",
+					"$(PROJECT_DIR)/SLib/Frameworks",
 				);
 				INFOPLIST_FILE = SLibBSWebImage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

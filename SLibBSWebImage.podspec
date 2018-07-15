@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SLibBSWebImage"
-  s.version      = "0.1.3"
+  s.version      = "0.1.4"
   s.summary      = "test 1 SLibBSWebImage."
 
   # This description is used to generate tags and improve search results.
@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "SLib/Resources/*.png"
-  s.resource_bundles={'SLibBSWebImage' => ['SLib/Resources/**/*'}
+  s.resource_bundles={'SLibBSWebImage' => ['SLib/Resources/**/*']}
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -118,8 +118,8 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "UMAnalytics", "UMCommon","UMCommonLog","UMErrorCatch","UMPush","UMShare","UShareUI","WebP","WebPDemux"
-
+  #  s.frameworks = "UMAnalytics","UMCommon","UMCommonLog","UMErrorCatch","UMPush","UMShare","UShareUI","WebP","WebPDemux"
+  s.frameworks = "UMAnalytics"
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
