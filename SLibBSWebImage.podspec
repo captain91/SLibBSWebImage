@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SLibBSWebImage"
-  s.version      = "0.1.4"
+  s.version      = "0.1.5"
   s.summary      = "test 1 SLibBSWebImage."
 
   # This description is used to generate tags and improve search results.
@@ -106,7 +106,8 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "SLib/Resources/*.png"
-  s.resource_bundles={'SLibBSWebImage' => ['SLib/Resources/**/*']}
+  # s.resource_bundles={'SLibBSWebImage' => ['SLib/Resources/**/*']}
+  s.resources = 'SLib/Resources/UMCommonLog.bundle','SLib/Resources/UMSocialSDKPromptResources.bundle','SLib/Resources/UMSocialSDKResources.bundle'
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -117,9 +118,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
-  #  s.frameworks = "UMAnalytics","UMCommon","UMCommonLog","UMErrorCatch","UMPush","UMShare","UShareUI","WebP","WebPDemux"
-  s.frameworks = "UMAnalytics"
+  # s.framework  = "UMAnalytics"
+  s.frameworks = "UIKit","ImageIO","UserNotifications","Foundation","CoreTelephony","SystemConfiguration","CoreGraphics","Security","CFNetwork","CoreFoundation","AddressBook"
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
@@ -131,8 +131,24 @@ Pod::Spec.new do |s|
   #  you can include multiple dependencies to ensure it works.
 
   s.requires_arc = true
-
+  s.ios.vendored_frameworks = 'SLib/Frameworks/UMAnalytics.framework','SLib/Frameworks/UMCommon.framework','SLib/Frameworks/UMCommonLog.framework','SLib/Frameworks/UMErrorCatch.framework','SLib/Frameworks/UMPush.framework','SLib/Frameworks/UMShare.framework','SLib/Frameworks/UShareUI.framework','SLib/Frameworks/WebP.framework','SLib/Frameworks/WebPDemux.framework'
+  # s.ios.vendored_frameworks = 'SLib/Frameworks/UMAnalytics.framework'
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+  # s.dependency "React"
+  # s.dependency 'React'
+  # s.dependency 'yoga'
+  podspecs = [
+    'node_modules/react-native/React.podspec',
+    'node_modules/react-native/third-party-podspecs/DoubleConversion.podspec',
+    'node_modules/react-native/third-party-podspecs/Folly.podspec',
+    'node_modules/react-native/third-party-podspecs/glog.podspec'
+  ]
+  # s.dependency 'React/CxxBridge', react_native_version
+  # s.dependency 'React/RCTAnimation', react_native_version
+  # s.dependency 'React/RCTImage', react_native_version
+  # s.dependency 'React/RCTLinkingIOS', react_native_version
+  # s.dependency 'React/RCTNetwork', react_native_version
+  # s.dependency 'React/RCTText', react_native_version
 
 end
